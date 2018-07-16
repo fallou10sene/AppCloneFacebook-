@@ -1,0 +1,134 @@
+.general{
+	background-color: #e3e3e3;
+}
+
+.top{
+	margin: 10px;
+}
+
+.haut{
+	
+	background-color: #200095;
+	color: white;
+}
+.haut1{
+	
+	background-color: #e3e3e3;
+	//color: white;
+}
+.logo{
+	width: 550px;
+	
+	padding:50px;
+}
+.droite{
+	width: 1000px;
+	margin-top: 50px;
+
+}
+.conteneur_gauche{
+	width: 900px;
+	float: left;
+	height: 200px;
+	background-color: red;
+}
+.conteneur_droite{
+	width: 650px;
+	float: left;
+	height: 200px;
+	background-color: blue;
+}
+input{
+	border-radius: 5px;
+}
+form{
+	margin: 0px;
+	padding: 0px;
+}
+.lien{
+	color: #fff;
+	
+}
+.lien:hover{
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+}
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: center;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant a {
+	font-weight: bold;
+    text-decoration: none;
+    display: block;
+	color:#fff;
+	padding: 10px;
+}
+#menu-deroulant a:hover {
+    text-decoration: none;
+    display: block;
+	color:#200095;
+	background-color: #fff;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 2000;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    background-color: #200095;
+
+}
+.menu_gauche a{
+	color: black;
+	
+}
+.menu_gauche h5:hover{
+	background-color: #fff;
+}
+#contenue1{
+	margin-top: 03px;
+	background-color: #fff;
+	margin: 3px;
+	border-radius: 10px;
+	font-size: 12px;
+}
+#contenue2{
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+#contenue3{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
